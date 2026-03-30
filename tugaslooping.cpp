@@ -64,3 +64,7 @@ int main() {
         tampilMenu();
 
         switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilHasil("Prima", isPrima(n));
+                break;
