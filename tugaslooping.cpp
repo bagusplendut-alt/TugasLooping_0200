@@ -27,3 +27,9 @@ bool isFibonacci(int angka) {
     }
     return (a == angka);
 }
+
+// --- Prosedur Input Angka ---
+void inputAngka() {
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> n;
+}
