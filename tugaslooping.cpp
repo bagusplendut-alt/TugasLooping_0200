@@ -80,3 +80,6 @@ int main() {
                 cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
                 break;
         }
+    }
+    return 0;
+}
