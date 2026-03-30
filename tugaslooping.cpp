@@ -59,3 +59,6 @@ void tampilMenu() {
 // --- Function Main ---
 int main() {
     bool berjalan = true;
+
+    while (berjalan) {
+        tampilMenu();
