@@ -72,3 +72,7 @@ int main() {
                 inputAngka();
                 tampilHasil("Fibonacci", isFibonacci(n));
                 break;
+            case 0:
+                cout << "Terima kasih! Program selesai." << endl;
+                berjalan = false;
+                break;
