@@ -33,3 +33,6 @@ void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> n;
 }
+
+// --- Prosedur Tampil Hasil ---
+void tampilHasil(string jenis, bool hasil) {
