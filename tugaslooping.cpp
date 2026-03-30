@@ -39,3 +39,6 @@ void tampilHasil(string jenis, bool hasil) {
     if (hasil) {
         cout << "Hasil: " << n << " ADALAH bilangan " << jenis << "." << endl;
     }
+    else {
+        cout << "Hasil: " << n << " BUKAN bilangan " << jenis << "." << endl;
+    }
