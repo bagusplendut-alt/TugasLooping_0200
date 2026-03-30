@@ -13,3 +13,5 @@ bool isPrima(int angka) {
         if (angka % i == 0) return false;
         i++;
     }
+    return true;
+}
