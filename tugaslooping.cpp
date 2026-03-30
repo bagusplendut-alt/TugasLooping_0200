@@ -36,3 +36,6 @@ void inputAngka() {
 
 // --- Prosedur Tampil Hasil ---
 void tampilHasil(string jenis, bool hasil) {
+    if (hasil) {
+        cout << "Hasil: " << n << " ADALAH bilangan " << jenis << "." << endl;
+    }
