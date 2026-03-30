@@ -15,3 +15,7 @@ bool isPrima(int angka) {
     }
     return true;
 }
+
+// --- Function Pengecekan Bilangan Fibonacci ---
+bool isFibonacci(int angka) {
+    if (angka < 0) return false;
