@@ -25,3 +25,5 @@ bool isFibonacci(int angka) {
         a = b;
         b = temp;
     }
+    return (a == angka);
+}
