@@ -42,3 +42,7 @@ void tampilHasil(string jenis, bool hasil) {
     else {
         cout << "Hasil: " << n << " BUKAN bilangan " << jenis << "." << endl;
     }
+}
+
+// --- Function Menu ---
+void tampilMenu() {
