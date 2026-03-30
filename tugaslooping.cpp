@@ -19,3 +19,4 @@ bool isPrima(int angka) {
 // --- Function Pengecekan Bilangan Fibonacci ---
 bool isFibonacci(int angka) {
     if (angka < 0) return false;
+    int a = 0, b = 1;
