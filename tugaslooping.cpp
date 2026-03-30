@@ -76,3 +76,7 @@ int main() {
                 cout << "Terima kasih! Program selesai." << endl;
                 berjalan = false;
                 break;
+            default:
+                cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+                break;
+        }
