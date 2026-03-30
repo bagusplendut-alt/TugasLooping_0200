@@ -68,3 +68,7 @@ int main() {
                 inputAngka();
                 tampilHasil("Prima", isPrima(n));
                 break;
+            case 2:
+                inputAngka();
+                tampilHasil("Fibonacci", isFibonacci(n));
+                break;
