@@ -55,3 +55,7 @@ void tampilMenu() {
     cout << "Pilih menu (0-2): ";
     cin >> pilihan;
 }
+
+// --- Function Main ---
+int main() {
+    bool berjalan = true;
