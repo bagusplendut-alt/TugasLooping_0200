@@ -8,3 +8,4 @@ int pilihan;
 // --- Function Pengecekan Bilangan Prima ---
 bool isPrima(int angka) {
     if (angka <= 1) return false;
+    int i = 2;
